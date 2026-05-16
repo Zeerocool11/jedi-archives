@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jedi Archives</title>
+    <link rel="stylesheet" href="Assets/Styles/styles.css">
+</head>
+<body>
+
+    <div class="app">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+
+            <div class="logo">
+                JEDI ARCHIVES
+            </div>
+
+            <div class="sidebar-section">
+
+                <h3>Browse By Affiliation</h3>
+
+                <button onclick="goToFilter('affiliation', 'jedi')">Jedi</button>
+
+                <button onclick="goToFilter('affiliation', 'sith')">Sith</button>
+
+                <button onclick="goToFilter('affiliation', 'bounty-hunter')">
+                    Bounty Hunters
+                </button>
+
+            </div>
+
+            <div class="sidebar-section">
+
+                <h3>Browse By Era</h3>
+
+                <button onclick="goToFilter('era', 'prequel')">
+                    Prequel Era
+                </button>
+
+                <button onclick="goToFilter('era', 'clone-wars')">
+                    Clone Wars
+                </button>
+
+                <button onclick="goToFilter('era', 'original')">
+                    Original Trilogy
+                </button>
+
+            </div>
+
+        </aside>
+
+        <!-- MAIN -->
+        <main class="main-content">
+
+            <section class="hero">
+
+                <h1>The Jedi Archives</h1>
+
+                <p>
+                    Explore characters, eras, affiliations,
+                    and the history of the galaxy.
+                </p>
+
+            </section>
+
+            <section class="recent-section">
+
+                <h2>Recently Added</h2>
+
+                <div class="character-grid" id="recentCharacters"></div>
+
+            </section>
+
+        </main>
+
+    </div>
+</body>
+</html>
