@@ -43,6 +43,7 @@
                 },
                 "masters": [""],
                 "apprentices": [""],
+                "partners": [""],
                 "knownAssociates": [""]
             }
         }

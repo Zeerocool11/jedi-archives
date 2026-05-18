@@ -1,36 +1,27 @@
 {
     "characters": [
         {
-            "id": "",
-            "name": "",
-            "aliases": "",
-            "rank": "",
-            "categories": [""],
-            "affiliations": [""],
-            "eras": [""],
+            "id": "pokkit",
+            "name": "Pokkit",
+            "aliases": "N/A",
+            "rank": "Bounty Hunter",
+            "categories": ["scum"],
+            "affiliations": ["Bounty Hunters' Guild"],
+            "eras": ["newRepublic"],
             "biography": {
-                "species": "",
+                "species": "Umbaran",
                 "homeworld": "",
                 "birthYear": "",
                 "deathYear": "",
-                "gender": "",
-                "eyeColor": "",
-                "hairColor": "",
-                "forceSensitive": true
-            },
-            "forceProfile": {
-                "aligntment": "",
-                "abilities": [""],
-                "lightsaberStyle": [""]
+                "gender": "Female",
+                "eyeColor": "White",
+                "hairColor": "White",
+                "forceSensitive": false
             },
             "equipment": {
-                "lightsaber": {
-                    "lightsaberColor": "",
-                    "crystalType": ""
-                },
                 "shipsVehicles": [""],
-                "armorGear": [""],
-                "otherEquipment": [""]
+                "armorGear": ["Blaster Pistol"],
+                "otherEquipment": ["Wrist Comlink"]
             },
             "relationships": {
                 "family": {
@@ -43,8 +34,51 @@
                 },
                 "masters": [""],
                 "apprentices": [""],
-                "knownAssociates": [""]
+                "partners": [""],
+                "knownAssociates": ["brutus"]
             }
+        },
+        {
+            "characters": [
+                {
+                    "id": "vel-sartha",
+                    "name": "Vel Sartha",
+                    "aliases": "",
+                    "rank": "",
+                    "categories": ["rebels"],
+                    "affiliations": ["Axis Network", "Rebel Alliance", "Massassi Group"],
+                    "eras": ["imperial"],
+                    "biography": {
+                        "species": "Chandrillan",
+                        "homeworld": "Chandrilla",
+                        "birthYear": "",
+                        "deathYear": "",
+                        "gender": "Female",
+                        "eyeColor": "Blue",
+                        "hairColor": "Red",
+                        "forceSensitive": false
+                    },
+                    "equipment": {
+                        "shipsVehicles": [""],
+                        "armorGear": ["BK-43 Blaster Rifle"],
+                        "otherEquipment": [""]
+                    },
+                    "relationships": {
+                        "family": {
+                            "parent1": "",
+                            "parent2": "",
+                            "sibling1": "",
+                            "sibling2": "",
+                            "kid1": "",
+                            "kid2": ""
+                        },
+                        "masters": [""],
+                        "apprentices": [""],
+                        "partners": ["cinta-kaz"],
+                        "knownAssociates": ["kleya-marki", "luthen-rael", "cassian-andor", "karis-nemik", "arvel-skeen"]
+                    }
+                }
+            ]
         }
     ]
 }
