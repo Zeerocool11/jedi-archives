@@ -30,11 +30,6 @@ function renderCharacters(characters) {
         card.href =
             `character.html?id=${character.id}`;
 
-        card.classList.add(
-            "character-card",
-            character.organizationColor
-        );
-
         card.innerHTML = `
 
             <img
@@ -47,7 +42,7 @@ function renderCharacters(characters) {
                 <h3>${character.name}</h3>
 
                 <p class="card-title">
-                    ${character.titles[0] || ""}
+                    ${character.aliases[0] || ""}
                 </p>
 
                 <p class="card-species">

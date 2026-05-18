@@ -434,6 +434,211 @@
                 "knownAssociates": ["gwarm", "hondo-ohnaka", "kay-vess"]
             },
             "img": ""
-        }                           
+        },
+        {
+            "id": "nd-5",
+            "name": "ND-5",
+            "aliases": "JX394ND-5777",
+            "rank": "",
+            "categories": ["scum"],
+            "affiliations": ["CIS", "Hutt Clan", "Kay Vess' Crew"],
+            "eras": ["imperial"],
+            "biography": {
+                "species": "BX-Series Commando Droid",
+                "homeworld": "",
+                "birthYear": "22 BBY",
+                "deathYear": "",
+                "gender": "Male",
+                "eyeColor": "White",
+                "hairColor": "N/A",
+                "forceSensitive": false
+            },
+            "equipment": {
+                "shipsVehicles": [""],
+                "armorGear": ["DL-18 Blaster Pistol"],
+                "otherEquipment": [""]
+            },
+            "relationships": {
+                "family": {
+                    "parent1": "",
+                    "parent2": "",
+                    "sibling1": "",
+                    "sibling2": "",
+                    "kid1": "",
+                    "kid2": ""
+                },
+                "masters": [""],
+                "apprentices": [""],
+                "partners": [""],
+                "knownAssociates": ["kay-vess", "jaylen-vrax"]
+            },
+            "img": ""
+        },
+        {
+            "id": "jaylen-vrax",
+            "name": "Jaylan Vrax",
+            "aliases": "Jaylan Barsha",
+            "rank": "Crime Lord",
+            "categories": ["empire", "scum"],
+            "affiliations": ["Barsha Corporation", "Kay Vess' Crew (As a Spy)", "Galactic Empire"],
+            "eras": ["imperial"],
+            "biography": {
+                "species": "Corellian",
+                "homeworld": "Corellia",
+                "birthYear": "c. 44 BBY",
+                "deathYear": "3 ABY",
+                "gender": "Male",
+                "eyeColor": "Blue",
+                "hairColor": "Brown",
+                "forceSensitive": false
+            },
+            "equipment": {
+                "shipsVehicles": [""],
+                "armorGear": ["Relby K-25 Blaster Pistol"],
+                "otherEquipment": [""]
+            },
+            "relationships": {
+                "family": {
+                    "parent1": "",
+                    "parent2": "",
+                    "sibling1": "sliro-barsha",
+                    "sibling2": "",
+                    "kid1": "",
+                    "kid2": ""
+                },
+                "masters": [""],
+                "apprentices": [""],
+                "partners": [""],
+                "knownAssociates": ["nd-5", "kay-vess"]
+            },
+            "img": ""
+        },
+        {
+            "id": "lanever-villecham",
+            "name": "Lanever Villecham",
+            "aliases": "Chancellor Villecham",
+            "rank": "Chancellor",
+            "categories": ["newRepublic"],
+            "affiliations": ["New Republic", "Galactic Senate"],
+            "eras": ["newRepublic"],
+            "biography": {
+                "species": "Tarsunt",
+                "homeworld": "Tarsunt",
+                "birthYear": "",
+                "deathYear": "",
+                "gender": "Male",
+                "eyeColor": "Black",
+                "hairColor": "White",
+                "forceSensitive": false
+            },
+            "equipment": {
+                "shipsVehicles": [""],
+                "armorGear": [""],
+                "otherEquipment": [""]
+            },
+            "relationships": {
+                "family": {
+                    "parent1": "",
+                    "parent2": "",
+                    "sibling1": "",
+                    "sibling2": "",
+                    "kid1": "",
+                    "kid2": ""
+                },
+                "masters": [""],
+                "apprentices": [""],
+                "partners": [""],
+                "knownAssociates": [""]
+            },
+            "img": ""
+        },
+        {
+            "id": "worus-rayencourt",
+            "name": "Worus Rayencourt",
+            "aliases": "Senator Rayencourt",
+            "rank": "Senator",
+            "categories": ["republic"],
+            "affiliations": ["Galactic Republic", "Galactic Senate"],
+            "eras": ["highRepublic"],
+            "biography": {
+                "species": "Human",
+                "homeworld": "",
+                "birthYear": "",
+                "deathYear": "",
+                "gender": "Male",
+                "eyeColor": "Brown",
+                "hairColor": "Black",
+                "forceSensitive": false
+            },
+            "equipment": {
+                "shipsVehicles": [""],
+                "armorGear": [""],
+                "otherEquipment": [""]
+            },
+            "relationships": {
+                "family": {
+                    "parent1": "",
+                    "parent2": "",
+                    "sibling1": "",
+                    "sibling2": "",
+                    "kid1": "",
+                    "kid2": ""
+                },
+                "masters": [""],
+                "apprentices": [""],
+                "partners": [""],
+                "knownAssociates": [""]
+            },
+            "img": ""
+        },
+        {
+            "id": "quinlan-vos",
+            "name": "Quinlan Vos",
+            "aliases": ["Master Vos", "General Vos", "Admiral Enigma"],
+            "rank": ["Jedi Master", "Jedi General"],
+            "categories": ["jedi", "sith", "cis"],
+            "affiliations": ["Jedi Order", "Galactic Republic", "Sith", "CIS", "Hidden Path"],
+            "eras": ["republic"],
+            "biography": {
+                "species": "Kiffar",
+                "homeworld": "Kiffu",
+                "birthYear": "",
+                "deathYear": "",
+                "gender": "Male",
+                "eyeColor": "Brown",
+                "hairColor": "Black",
+                "forceSensitive": true
+            },
+            "forceProfile": {
+                "aligntment": "Light Side (Reformed)",
+                "abilities": ["Psychometry", "Telekinesis", "Force Push"],
+                "lightsaberStyle": ["Form IV"]
+            },
+            "equipment": {
+                "lightsaber": {
+                    "lightsaberColor": "Green",
+                    "lightsaberType": "Single-Bladed",
+                    "crystalType": "Kyber"
+                },
+                "shipsVehicles": [""],
+                "armorGear": [""],
+                "otherEquipment": [""]
+            },
+            "relationships": {
+                "family": {
+                    "parent1": "",
+                    "parent2": "",
+                    "sibling1": "",
+                    "sibling2": "",
+                    "kid1": "",
+                    "kid2": ""
+                },
+                "masters": ["tholme", "dooku"],
+                "apprentices": ["aayla-secura"],
+                "partners": ["asajj-ventress"],
+                "knownAssociates": [""]
+            },
+            "img": ""
+        }                                                                                                                                                               
     ]
 }
