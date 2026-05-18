@@ -1,0 +1,50 @@
+{
+    "characters": [
+        {
+            "id": "",
+            "name": "",
+            "aliases": "",
+            "rank": "",
+            "categories": [""],
+            "affiliations": [""],
+            "eras": [""],
+            "biography": {
+                "species": "",
+                "homeworld": "",
+                "birthYear": "",
+                "deathYear": "",
+                "gender": "",
+                "eyeColor": "",
+                "hairColor": "",
+                "forceSensitive": true
+            },
+            "forceProfile": {
+                "aligntment": "",
+                "abilities": [""],
+                "lightsaberStyle": [""]
+            },
+            "equipment": {
+                "lightsaber": {
+                    "lightsaberColor": "",
+                    "crystalType": ""
+                },
+                "shipsVehicles": [""],
+                "armorGear": [""],
+                "otherEquipment": [""]
+            },
+            "relationships": {
+                "family": {
+                    "parent1": "",
+                    "parent2": "",
+                    "sibling1": "",
+                    "sibling2": "",
+                    "kid1": "",
+                    "kid2": ""
+                },
+                "masters": [""],
+                "apprentices": [""],
+                "knownAssociates": [""]
+            }
+        }
+    ]
+}
