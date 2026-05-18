@@ -39,46 +39,100 @@
             }
         },
         {
-            "characters": [
-                {
-                    "id": "vel-sartha",
-                    "name": "Vel Sartha",
-                    "aliases": "",
-                    "rank": "",
-                    "categories": ["rebels"],
-                    "affiliations": ["Axis Network", "Rebel Alliance", "Massassi Group"],
-                    "eras": ["imperial"],
-                    "biography": {
-                        "species": "Chandrillan",
-                        "homeworld": "Chandrilla",
-                        "birthYear": "",
-                        "deathYear": "",
-                        "gender": "Female",
-                        "eyeColor": "Blue",
-                        "hairColor": "Red",
-                        "forceSensitive": false
-                    },
-                    "equipment": {
-                        "shipsVehicles": [""],
-                        "armorGear": ["BK-43 Blaster Rifle"],
-                        "otherEquipment": [""]
-                    },
-                    "relationships": {
-                        "family": {
-                            "parent1": "",
-                            "parent2": "",
-                            "sibling1": "",
-                            "sibling2": "",
-                            "kid1": "",
-                            "kid2": ""
-                        },
-                        "masters": [""],
-                        "apprentices": [""],
-                        "partners": ["cinta-kaz"],
-                        "knownAssociates": ["kleya-marki", "luthen-rael", "cassian-andor", "karis-nemik", "arvel-skeen"]
-                    }
-                }
-            ]
-        }
+            "id": "sol",
+            "name": "Sol",
+            "aliases": "Master Sol",
+            "rank": "Jedi Master",
+            "categories": ["jediOrder"],
+            "affiliations": ["Jedi Order", "Brendok Four", "Khofar Task Force"],
+            "eras": ["highRepublic"],
+            "biography": {
+                "species": "Coruscanti",
+                "homeworld": "Coruscant",
+                "birthYear": "c. 180 BBY",
+                "deathYear": "132 BBY",
+                "gender": "Male",
+                "eyeColor": "Brown",
+                "hairColor": "Black",
+                "forceSensitive": true
+            },
+            "forceProfile": {
+                "aligntment": "Light Side",
+                "abilities": ["Mind Trick", "Mind Probe", "Telekinesis", "Force Sense", "Force Push", "Farsight", "Force Vision", "Force Repulse"],
+                "lightsaberStyle": ["Form III", "Form IV"]
+            },
+            "equipment": {
+                "lightsaber": {
+                    "lightsaberColor": "Blue",
+                    "lightsaberType": "Single-Bladed",
+                    "crystalType": "Kyber"
+                },
+                "shipsVehicles": ["Polan-717 Jedi Transport"],
+                "armorGear": [""],
+                "otherEquipment": [""]
+            },
+            "relationships": {
+                "family": {
+                    "parent1": "",
+                    "parent2": "",
+                    "sibling1": "",
+                    "sibling2": "",
+                    "kid1": "",
+                    "kid2": ""
+                },
+                "masters": [""],
+                "apprentices": ["osha-aniseya", "jecki-lon"],
+                "partners": [""],
+                "knownAssociates": ["brutus"]
+            }
+        },
+        {
+            "id": "osha-aniseya",
+            "name": "Verosha Aniseya",
+            "aliases": "Osha",
+            "rank": "Sith Acolyte",
+            "categories": ["sith"],
+            "affiliations": ["Brendok Coven", "Jedi Order", "Trade Federation", "Sith"],
+            "eras": ["highRepublic"],
+            "biography": {
+                "species": "Human",
+                "homeworld": "Brendok",
+                "birthYear": "c. 156 BBY",
+                "deathYear": "",
+                "gender": "Female",
+                "eyeColor": "Brown",
+                "hairColor": "Black",
+                "forceSensitive": true
+            },
+            "forceProfile": {
+                "aligntment": "Dark Side",
+                "abilities": [""],
+                "lightsaberStyle": [""]
+            },
+            "equipment": {
+                "lightsaber": {
+                    "lightsaberColor": "Red",
+                    "lightsaberType": "Single-Bladed",
+                    "crystalType": "Bled Kyber"
+                },
+                "shipsVehicles": [""],
+                "armorGear": [""],
+                "otherEquipment": [""]
+            },
+            "relationships": {
+                "family": {
+                    "parent1": "aniseya",
+                    "parent2": "koril",
+                    "sibling1": "mae-aniseya",
+                    "sibling2": "",
+                    "kid1": "",
+                    "kid2": ""
+                },
+                "masters": ["sol", "the-stranger"],
+                "apprentices": [""],
+                "partners": [""],
+                "knownAssociates": [""]
+            }
+        }        
     ]
 }

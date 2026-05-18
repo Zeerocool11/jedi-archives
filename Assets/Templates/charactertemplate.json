@@ -26,6 +26,7 @@
             "equipment": {
                 "lightsaber": {
                     "lightsaberColor": "",
+                    "lightsaberType": "",
                     "crystalType": ""
                 },
                 "shipsVehicles": [""],
