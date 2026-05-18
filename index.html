@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Jedi Archives</title>
 
-    <link rel="stylesheet" href="Assets/Styles/styles.css"/>
+    <link rel="stylesheet" href="Assets/Styles/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -17,114 +23,65 @@
 
         <div class="logo">
             <div class="logo-symbol">✦</div>
+
             <h1>JEDI ARCHIVES</h1>
+
             <span>Knowledge. Defense. Peace.</span>
         </div>
 
         <nav class="sidebar-nav">
 
-            <details class="dropdown" open>
-                <summary>
-                    <span>Characters</span>
-                    <span>⌄</span>
-                </summary>
+            <a href="index.html" class="sidebar-link active">
+                Home
+            </a>
 
-                <ul id="character-dropdown">
-                </ul>
-            </details>
+            <a href="characters.html" class="sidebar-link">
+                Characters
+            </a>
 
-            <details class="dropdown">
-                <summary>
-                    <span>Planets & Locations</span>
-                    <span>⌄</span>
-                </summary>
+            <a href="#" class="sidebar-link">
+                Planets & Locations
+            </a>
 
-                <ul>
-                    <li><a href="#">Coruscant</a></li>
-                    <li><a href="#">Tatooine</a></li>
-                    <li><a href="#">Mandalore</a></li>
-                </ul>
-            </details>
+            <a href="#" class="sidebar-link">
+                Weapons & Items
+            </a>
 
-            <details class="dropdown">
-                <summary>
-                    <span>Weapons & Items</span>
-                    <span>⌄</span>
-                </summary>
+            <a href="#" class="sidebar-link">
+                Artillery & Vehicles
+            </a>
 
-                <ul>
-                    <li><a href="#">Lightsabers</a></li>
-                    <li><a href="#">Holocrons</a></li>
-                    <li><a href="#">Armor</a></li>
-                </ul>
-            </details>
-
-            <details class="dropdown">
-                <summary>
-                    <span>Artillery & Vehicles</span>
-                    <span>⌄</span>
-                </summary>
-
-                <ul>
-                    <li><a href="#">X-Wings</a></li>
-                    <li><a href="#">Star Destroyers</a></li>
-                    <li><a href="#">Walkers</a></li>
-                </ul>
-            </details>
-
-            <details class="dropdown">
-                <summary>
-                    <span>Organizations</span>
-                    <span>⌄</span>
-                </summary>
-
-                <ul>
-                    <li><a href="#">Jedi Order</a></li>
-                    <li><a href="#">Galactic Republic</a></li>
-                    <li><a href="#">Galactic Empire</a></li>
-                    <li><a href="#">Rebel Alliance</a></li>
-                </ul>
-            </details>
+            <a href="#" class="sidebar-link">
+                Organizations
+            </a>
 
         </nav>
 
     </aside>
 
-    <!-- MAIN -->
+    <!-- MAIN CONTENT -->
 
     <main class="main-content">
-
-        <header class="topbar">
-
-            <input
-                type="text"
-                class="search"
-                placeholder="Search the Archives..."
-            />
-
-            <button class="signin-btn">
-                Sign In
-            </button>
-
-        </header>
-
-        <!-- HERO -->
 
         <section class="hero">
 
             <div class="hero-text">
 
-                <p class="subtitle">WELCOME TO THE</p>
+                <p class="subtitle">
+                    WELCOME TO THE
+                </p>
 
                 <h2>JEDI ARCHIVES</h2>
 
                 <p class="description">
-                    The ultimate repository of galactic knowledge.
+                    Explore the galaxy's greatest repository of
+                    characters, organizations, worlds, conflicts,
+                    and Force history.
                 </p>
 
-                <button class="hero-btn">
-                    Explore Archives
-                </button>
+                <a href="characters.html" class="hero-btn">
+                    Browse Characters
+                </a>
 
             </div>
 
@@ -134,59 +91,57 @@
 
         </section>
 
-        <!-- ORGANIZATION CARDS -->
+        <!-- ORGANIZATION BUTTONS -->
 
         <section class="organization-grid">
 
-            <a href="#" class="org-card jedi">
-                <div class="org-icon">✦</div>
-                <span>Jedi Order</span>
+            <a href="characters.html?organization=Jedi%20Order"
+               class="org-card jedi">
+
+                <h3>Jedi Order</h3>
+
             </a>
 
-            <a href="#" class="org-card sith">
-                <div class="org-icon">⬟</div>
-                <span>Sith Order</span>
+            <a href="characters.html?organization=Sith%20Order"
+               class="org-card sith">
+
+                <h3>Sith Order</h3>
+
             </a>
 
-            <a href="#" class="org-card republic">
-                <div class="org-icon">⬢</div>
-                <span>Galactic Republic</span>
+            <a href="characters.html?organization=Galactic%20Republic"
+               class="org-card republic">
+
+                <h3>Galactic Republic</h3>
+
             </a>
 
-            <a href="#" class="org-card empire">
-                <div class="org-icon">⬢</div>
-                <span>Galactic Empire</span>
+            <a href="characters.html?organization=Galactic%20Empire"
+               class="org-card empire">
+
+                <h3>Galactic Empire</h3>
+
             </a>
 
-            <a href="#" class="org-card rebel">
-                <div class="org-icon">✧</div>
-                <span>Rebel Alliance</span>
+            <a href="characters.html?organization=Rebel%20Alliance"
+               class="org-card rebel">
+
+                <h3>Rebel Alliance</h3>
+
             </a>
 
-            <a href="#" class="org-card mando">
-                <div class="org-icon">⚔</div>
-                <span>Mandalorians</span>
+            <a href="characters.html?organization=Mandalorians"
+               class="org-card mando">
+
+                <h3>Mandalorians</h3>
+
             </a>
-
-        </section>
-
-        <!-- RECENT CHARACTERS -->
-
-        <section class="panel">
-
-            <div class="panel-header">
-                <h3>Recently Added Entries</h3>
-            </div>
-
-            <div id="recent-characters" class="character-grid"></div>
 
         </section>
 
     </main>
 
 </div>
-
-<script src="assets/js/app.js"></script>
 
 </body>
 </html>

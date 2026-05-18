@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Character Archives</title>
+
+    <link rel="stylesheet"
+          href="Assets/Styles/styles.css">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+
+<div class="archive-page">
+
+    <!-- HEADER -->
+
+    <header class="archive-header">
+
+        <div>
+
+            <p class="archive-subtitle">
+                GALACTIC DATABASE
+            </p>
+
+            <h1 id="archive-title">
+                CHARACTER ARCHIVES
+            </h1>
+
+            <p class="archive-description">
+                Search and filter through the Jedi Archives.
+            </p>
+
+        </div>
+
+    </header>
+
+    <!-- FILTERS -->
+
+    <section class="filters">
+
+        <input
+            type="text"
+            id="search"
+            class="search"
+            placeholder="Search characters..."
+        >
+
+        <select id="organization-filter"
+                class="archive-select">
+
+            <option value="all">
+                All Organizations
+            </option>
+
+        </select>
+
+        <select id="species-filter"
+                class="archive-select">
+
+            <option value="all">
+                All Species
+            </option>
+
+        </select>
+
+    </section>
+
+    <!-- CHARACTER GRID -->
+
+    <section>
+
+        <div id="character-grid"
+             class="character-grid"></div>
+
+    </section>
+
+</div>
+
+<script src="Assets/JS/character.js"></script>
+
+</body>
+</html>
