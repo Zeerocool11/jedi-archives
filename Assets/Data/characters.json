@@ -36,7 +36,8 @@
                 "apprentices": [""],
                 "partners": [""],
                 "knownAssociates": ["brutus"]
-            }
+            },
+            "img": ""
         },
         {
             "id": "sol",
@@ -84,7 +85,8 @@
                 "apprentices": ["osha-aniseya", "jecki-lon"],
                 "partners": [""],
                 "knownAssociates": ["brutus"]
-            }
+            },
+            "img": ""
         },
         {
             "id": "osha-aniseya",
@@ -132,7 +134,199 @@
                 "apprentices": [""],
                 "partners": [""],
                 "knownAssociates": [""]
-            }
+            },
+            "img": ""
+        },
+        {
+            "id": "mae-aniseya",
+            "name": "Mae-Ho Aniseya",
+            "aliases": "Mae",
+            "rank": "Sith Acolyte",
+            "categories": ["sith"],
+            "affiliations": ["Brendok Coven", "Sith"],
+            "eras": ["highRepublic"],
+            "biography": {
+                "species": "Human",
+                "homeworld": "Brendok",
+                "birthYear": "c. 156 BBY",
+                "deathYear": "",
+                "gender": "Female",
+                "eyeColor": "Brown",
+                "hairColor": "Black",
+                "forceSensitive": true
+            },
+            "forceProfile": {
+                "aligntment": "Dark Side",
+                "abilities": ["Telekinesis"],
+                "lightsaberStyle": [""]
+            },
+            "equipment": {
+                "shipsVehicles": [""],
+                "armorGear": [""],
+                "otherEquipment": [""]
+            },
+            "relationships": {
+                "family": {
+                    "parent1": "aniseya",
+                    "parent2": "koril",
+                    "sibling1": "osha-aniseya",
+                    "sibling2": "",
+                    "kid1": "",
+                    "kid2": ""
+                },
+                "masters": ["the-stranger"],
+                "apprentices": [""],
+                "partners": [""],
+                "knownAssociates": [""]
+            },
+            "img": ""
+        },
+        {
+            "id": "eeko-dio-daki",
+            "name": "Eeko Dio-Daki",
+            "aliases": "Master Daki",
+            "rank": "Jedi Master",
+            "categories": ["jediOrder"],
+            "affiliations": ["Jedi Order"],
+            "eras": ["imperial"],
+            "biography": {
+                "species": "Mosyk",
+                "homeworld": "",
+                "birthYear": "",
+                "deathYear": "c. 17-13 BBY",
+                "gender": "Male",
+                "eyeColor": "Gray",
+                "hairColor": "White",
+                "forceSensitive": true
+            },
+            "forceProfile": {
+                "aligntment": "Light Side",
+                "abilities": ["Telekinesis", "Force Push", "Force Jump"],
+                "lightsaberStyle": [""]
+            },
+            "equipment": {
+                "lightsaber": {
+                    "lightsaberColor": "Blue",
+                    "lightsaberType": "Single-Bladed",
+                    "crystalType": "Kyber"
+                },
+                "shipsVehicles": [""],
+                "armorGear": [""],
+                "otherEquipment": [""]
+            },
+            "relationships": {
+                "family": {
+                    "parent1": "",
+                    "parent2": "",
+                    "sibling1": "",
+                    "sibling2": "",
+                    "kid1": "",
+                    "kid2": ""
+                },
+                "masters": [""],
+                "apprentices": ["devon-izara"],
+                "partners": [""],
+                "knownAssociates": ["brander-lawson"]
+            },
+            "img": ""
+        },
+        {
+            "id": "devon-izara",
+            "name": "Devon Izara",
+            "aliases": "",
+            "rank": "Jedi Padawan",
+            "categories": ["jediOrder"],
+            "affiliations": ["Jedi Order", "Shadow Collective"],
+            "eras": ["imperial"],
+            "biography": {
+                "species": "Twi'lek",
+                "homeworld": "",
+                "birthYear": "",
+                "deathYear": "",
+                "gender": "Female",
+                "eyeColor": "Green",
+                "hairColor": "N/A",
+                "forceSensitive": true
+            },
+            "forceProfile": {
+                "aligntment": "Light Side",
+                "abilities": ["Force Jump", "Force Push"],
+                "lightsaberStyle": ["Form III", "Form IV"]
+            },
+            "equipment": {
+                "lightsaber": {
+                    "lightsaberColor": "Blue",
+                    "lightsaberType": "Single-Bladed",
+                    "crystalType": "Kyber"
+                },
+                "shipsVehicles": [""],
+                "armorGear": [""],
+                "otherEquipment": [""]
+            },
+            "relationships": {
+                "family": {
+                    "parent1": "",
+                    "parent2": "",
+                    "sibling1": "",
+                    "sibling2": "",
+                    "kid1": "",
+                    "kid2": ""
+                },
+                "masters": ["eeko-dio-daki", "maul"],
+                "apprentices": [""],
+                "partners": [""],
+                "knownAssociates": ["brander-lawson", "rylee-lawson"]
+            },
+            "img": ""
+        },    
+        {
+            "id": "rook-kast",
+            "name": "Rook Kast",
+            "aliases": "Master Sol",
+            "rank": "Jedi Master",
+            "categories": ["jediOrder"],
+            "affiliations": ["Jedi Order", "Brendok Four", "Khofar Task Force"],
+            "eras": ["highRepublic"],
+            "biography": {
+                "species": "Coruscanti",
+                "homeworld": "Coruscant",
+                "birthYear": "c. 180 BBY",
+                "deathYear": "132 BBY",
+                "gender": "Male",
+                "eyeColor": "Brown",
+                "hairColor": "Black",
+                "forceSensitive": true
+            },
+            "forceProfile": {
+                "aligntment": "Light Side",
+                "abilities": ["Mind Trick", "Mind Probe", "Telekinesis", "Force Sense", "Force Push", "Farsight", "Force Vision", "Force Repulse"],
+                "lightsaberStyle": ["Form III", "Form IV"]
+            },
+            "equipment": {
+                "lightsaber": {
+                    "lightsaberColor": "Blue",
+                    "lightsaberType": "Single-Bladed",
+                    "crystalType": "Kyber"
+                },
+                "shipsVehicles": ["Polan-717 Jedi Transport"],
+                "armorGear": [""],
+                "otherEquipment": [""]
+            },
+            "relationships": {
+                "family": {
+                    "parent1": "",
+                    "parent2": "",
+                    "sibling1": "",
+                    "sibling2": "",
+                    "kid1": "",
+                    "kid2": ""
+                },
+                "masters": [""],
+                "apprentices": ["osha-aniseya", "jecki-lon"],
+                "partners": [""],
+                "knownAssociates": ["brutus"]
+            },
+            "img": ""
         }        
     ]
 }

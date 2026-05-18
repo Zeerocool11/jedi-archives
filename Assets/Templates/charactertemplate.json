@@ -46,7 +46,8 @@
                 "apprentices": [""],
                 "partners": [""],
                 "knownAssociates": [""]
-            }
+            },
+            "img": ""
         }
     ]
 }
